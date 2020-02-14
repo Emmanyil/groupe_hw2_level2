@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h5{
 
 .intro{
     width: 100%;
-    
+    height: 100vh;
     background: url(images/intro.png) center no-repeat;
     background-size: cover;
 }
@@ -27,19 +27,21 @@ h1, h2, h3, h4, h5, h5{
     font-size: 30px;
     text-align: center;
     padding-right: 450px;
-    padding-top: 300px;
+    padding-top: 340px;
     color: #00AEEA;
 }
 
 .main{
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #2259f0;
+    height: 600px;
 }
 
 .box{
-    border: 2px solid black;
-    width: 200px;
+    border: 3px solid black;
+    width: 230px;
     background-color: #00fff2;
 }
 
@@ -55,16 +57,106 @@ h1, h2, h3, h4, h5, h5{
     text-align: center;
 }
 
-@media (max-width: 900px) {
+.box2{
+    border: 3px solid black;
+    width: 230px;
+    background-color: #00fff2;
+    margin-left: 270px;
+    margin-top: -561px;
+}
+
+.image_box2{
+    width: auto;
+    height: 100vh;
+    height: 400px;
+    background: url(images/2.jpg) center no-repeat;
+}
+
+.text_box2{
+    color: blue;
+    text-align: center;
+}
+
+.box3{
+    border: 3px solid black;
+    width: 230px;
+    background-color: #00fff2;
+    margin-left: 540px;
+    margin-top: -519px;
+}
+
+.image_box3{
+    width: auto;
+    height: 100vh;
+    height: 380px;
+    background: url(images/3.jpg) center no-repeat;
+}
+
+.text_box3{
+    color: blue;
+    text-align: center;
+}
+
+.box4{
+    border: 3px solid black;
+    width: 230px;
+    background-color: #00fff2;
+    margin-left: 810px;
+    margin-top: -478px;
+}
+
+.image_box4{
+    width: auto;
+    height: 100vh;
+    height: 399px;
+    background: url(images/4.jpg) center no-repeat;
+}
+
+.text_box4{
+    color: blue;
+    text-align: center;
+}
+
+.box5{
+    border: 3px solid black;
+    width: 230px;
+    background-color: #00fff2;
+    float: right;
+    margin-top: -519px;
+}
+
+.image_box5{
+    width: auto;
+    height: 100vh;
+    height: 400px;
+    background: url(images/5.jpeg) center no-repeat;
+}
+
+.text_box5{
+    color: blue;
+    text-align: center;
+}
+
+.footer{
+    margin-top: -15px;
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+.f14 { 
+    color: red; /* Красный цвет символов */ 
+    font-family: serif; /* Шрифт с засечками */ 
+   }
+
+media (max-width: 900px) {
     .intro{
-        width: 100%;
+        width: 100;
         
     }
     .container{
         font-size: 25px;
     }
 }
-.f14 { 
-    color: red; /* Красный цвет символов */ 
-    font-family: serif; /* Шрифт с засечками */ 
-   }
